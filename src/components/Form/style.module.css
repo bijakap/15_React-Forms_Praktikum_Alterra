@@ -1,0 +1,44 @@
+.form_wrapper{
+    width: 30%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputan{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputan input, .inputan select, .inputan textarea{
+    margin-top: 4px;
+    padding: 5px;
+}
+
+.submit_form{
+    text-align: left;
+}
+
+.submit_form button, .submit_form input{
+    margin: 10px 10px 0px 0px;
+    padding: 8px 30px;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    
+}
+
+.submit_form input{
+    background-color: rgb(0, 165, 0);
+}
+
+.submit_form button{
+    background-color: rgb(201, 18, 18);
+}
+
+.form_wrapper ul, .form_wrapper li{
+    text-align: left;
+    color: rgb(224, 46, 46);
+}
